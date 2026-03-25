@@ -64,9 +64,9 @@ In this phase, I prepared the project environment
 ### Phase 2 - Testing 
 
 To build the Docker image:
-```bash
-docker build -t hivebox:v0.0.1 .
+
+`docker build -t hivebox:v0.0.1 .`
 
 To run the container:
-```bash
-docker run --rm hivebox:v0.0.1
+
+`docker run --rm hivebox:v0.0.1`
