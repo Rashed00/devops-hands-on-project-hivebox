@@ -59,3 +59,14 @@ In this phase, I prepared the project environment
 - Fork the HiveBox repository
 - Set up a local development environment
 - Create a separate branch ('phase-1') for development
+
+
+### Phase 2 - Testing 
+
+To build the Docker image:
+```bash
+docker build -t hivebox:v0.0.1 .
+
+To run the container:
+```bash
+docker run --rm hivebox:v0.0.1
