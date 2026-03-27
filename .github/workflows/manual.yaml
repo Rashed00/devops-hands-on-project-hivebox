@@ -9,9 +9,7 @@ on:
         options:
           - staging
           - deployment
-  push:
-    branches:
-      - phase-3
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
