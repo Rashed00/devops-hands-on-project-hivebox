@@ -1,0 +1,12 @@
+on: 
+  push:
+    branches:
+      - phase-3
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test workflow
+        run: echo "workflow running"
